@@ -1,0 +1,302 @@
+/* CSS Document */
+.blau h5,.h5{
+margin-top: 0px;
+color: #53C3F1;
+}
+.gelb h5,.h5{
+margin-top: 0px;
+color: #ffda00;
+}
+.rot h5,.h5{
+margin-top: 0px;
+color: #e72585;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.navbar-default {
+    background-color: #951b81;
+    border-color: transparent;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #C3C3C3;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #C3C3C3;
+}
+
+
+@media only screen and (max-width: 415px ){
+	
+.bg-1 {
+	height:28em;
+	background-image: url(  ../img/header-mobil.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	
+	
+}
+
+	.spalte {
+  column-count: 1;
+}
+	.zitat  {
+	height: 200px;
+	margin-top: 2em;
+		padding-left: 0px;
+	}
+	.zitat h2, .h2 {
+		font-size: 1.4em;
+		margin-top: -0.3em;
+		color: #fff;
+		
+	}
+	.zitat h5,.h5 {
+	color:#fff;
+	
+	}
+	.kapitel1 {
+	height: 10em;
+	background-image: url(../img/kapitel-mobil1.png);
+	background-size: 80%;
+	background-repeat: no-repeat;
+	
+}
+	.kapitel2 {
+	height: 10em;
+	background-image: url(../img/kapitel-mobil2.png);
+	background-size: 80%;
+	background-repeat: no-repeat;
+}
+	.kapitel3 {
+	height: 10em;
+	background-image: url(../img/kapitel-mobil3.png);
+	background-size: 80%;
+	background-repeat: no-repeat;
+}
+	.kapitel4 {
+	height: 10em;
+	background-image: url(../img/kapitel-mobil4.png);
+	background-size: 80%;
+	background-repeat: no-repeat;
+}
+	.kapitel5 {
+	height: 10em;
+	background-image: url(../img/kapitel-mobil5.png);
+	background-size: 80%;
+	background-repeat: no-repeat;
+}
+}
+@media only screen and (min-width: 415px ){
+.bg-1 {
+	height:300Px;
+	background-image: url(  ../img/header.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	
+}
+	.spalte {
+  column-count: 2;
+}
+	.zitat {
+	height: 200px;
+		padding-left: 0px;
+	
+}
+	.zitat h2, .h2 {
+		font-size: 2em;
+		margin-top: -0.3em;
+		color: #fff;
+		}
+	
+	.zitat h5,.h5 {
+	color:#fff;
+	}
+
+	.kapitel1 {
+	height: 15em;
+	background-image: url(../img/kapitel-mobil1.png);
+	background-size: contain;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+	.kapitel2 {
+	height: 200px;
+	background-image: url(../img/kapitel-mobil2.png);
+	background-size: contain;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+	.kapitel3 {
+	height: 200px;
+	background-image: url(../img/kapitel-mobil3.png);
+	background-size: contain;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+	.kapitel4 {
+	height: 200px;
+	background-image: url(../img/kapitel-mobil4.png);
+	background-size: contain;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+	.kapitel5 {
+	height: 200px;
+	background-image: url(../img/kapitel-mobil5.png);
+	background-size: contain;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+}
+@media only screen and (min-width: 967px ) {
+.bg-1 {
+	height:700px;
+	background-image: url(  ../img/header.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	
+}
+	
+	.spalte {
+  column-count: 3;
+}
+.zitat  {
+	height:300px;
+	padding-left: 0px;
+	
+}
+	.zitat h2,.h2 {
+		margin-top: -0.3em;
+		margin-left: 15em;
+		color: #fff;
+		}	
+	
+.zitat h5,.h5 {
+	margin-left: 30em;
+	color:#fff;
+	}
+.zitat.interpretation h2,.h2 {
+		margin-top: -0.3em;
+		margin-left: 25em;
+		color: #fff;
+		}	
+	
+.zitat.interpretation h5,.h5 {
+	margin-left: 50em;
+	color:#fff;
+	}
+.kapitel1 {
+	height:300px;
+	background-image: url( ../img/kapitel1.png);
+	background-size: contain;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+	.kapitel2 {
+	height:300px;
+	background-image: url( ../img/kapitel2.png);
+	background-size: contain;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+	.kapitel3 {
+	height:300px;
+	background-image: url( ../img/kapitel3.png);
+	background-size: contain;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+	.kapitel4 {
+	height:300px;
+	background-image: url( ../img/kapitel4.png);
+	background-size: contain;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+	.kapitel5 {
+	height:300px;
+	background-image: url( ../img/kapitel5.png);
+	background-size: contain;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+}
+	/* for large desktop */
+	@media only screen and (min-width: 1500px ) {
+.bg-1 {
+	height:1000PX;
+	background-image: url(  ../img/header.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	
+}
+
+
+}
+	
+.p, p {
+	color: #303030;
+}
+
+
+.zitat.autor {
+	background-color: #53C3F1;
+	margin-top: 4em;
+	margin-bottom: 4em;
+}
+.zitat.inhalt {
+	background-color: #ffda00;
+	margin-top: 4em;
+	margin-bottom: 4em;
+}.zitat.interpretation {
+	background-color:  #e72585;
+	margin-top: 4em;
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    border-radius: 0Px;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+	
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+.DS {
+	background-image: url(../img/DS.png);
+	height: 10em;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.abstand p,.p{
+	color: #fff;
+	padding-top: 5em;
+}
+a {
+	color: #ffffff;
+}
+a:hover, a:focus {
+    text-decoration: none;
+	color: #E72585;
+}
